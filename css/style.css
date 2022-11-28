@@ -50,7 +50,8 @@ body {
 
 .menu-nav__list,
 .contact-nav__list,
-.list {
+.list,
+.filter__list {
   list-style: none;
 }
 /* Menu nav - contact-nav */
@@ -787,23 +788,23 @@ a {
 /* Portfolio
 Filter */
 
-.filter-menu {
+.porfolio__filter {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
   margin: 0;
 }
-.filter-list {
+.filter__list {
   list-style: none;
   display: block;
   text-align: center;
 }
 
-.filter-list + .filter-list {
+.filter__list + .filter__list {
   margin-left: 8px;
 }
 
-.filter-button {
+.filter__button {
   border: 0;
   color: var(--primary-title-color);
   background-color: #f5f4fa;
@@ -814,16 +815,16 @@ Filter */
   border-radius: 4px;
   transition: background-color 250ms var(--transition-timing-function);
 }
-.filter-button:hover,
-.filter-button:focus {
+.filter__button:hover,
+.filter__button:focus {
   color: var(--accent-color2);
   background-color: var(--accent-color);
 }
 
-.main-potrfolio {
+.container__portfolio {
   display: block;
 }
-.projects-list {
+.project__list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -833,17 +834,17 @@ Filter */
   gap: 30px;
 }
 
-.project-set {
+.project__set {
   flex-basis: calc((100% - 60px) / 3);
   transition: box-shadow 250ms var(--transition-timing-function);
 }
 
-.project-set:hover {
+.project__set:hover {
   border: 1px solid EEEEEE;
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 1.6),
     0px 4px 4px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px 0px rgba(0, 0, 0, 1.2);
 }
-.project-name {
+.project__name {
   font-weight: 700;
   font-size: 18px;
   color: var(--primary-title-color);
@@ -851,14 +852,14 @@ Filter */
   margin: 0px;
 }
 
-.project {
+.project__explaination {
   font-weight: 400;
   font-size: 16px;
   color: var(--primary-text-color);
   margin-top: 4px;
   margin-bottom: 0px;
 }
-img {
+.project__img {
   display: block;
   width: 100%;
   height: auto;
@@ -871,7 +872,7 @@ img {
   margin-right: auto;
 }
 
-.card-content {
+.project__content {
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -879,20 +880,20 @@ img {
   text-align: left;
 }
 
-.project-name {
+.project__name {
   margin-top: 4px;
 }
 
-.project-case:hover .text {
+.project__case:hover .project__text {
   opacity: 1;
   transform: translateY(0%);
 }
 
-.card-thumb {
+.project__thumb {
   position: relative;
   overflow: hidden;
 }
-.text {
+.project__text {
   position: absolute;
   top: 0;
   left: 0;
