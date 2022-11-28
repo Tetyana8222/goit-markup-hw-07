@@ -213,7 +213,7 @@ body {
   left: 50%;
   min-width: 528px;
   min-height: 581px;
-  background-color: #ffffff;
+  background-color: var(--accent-color2);
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),
     0 1px 3px 0 rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -233,7 +233,7 @@ body {
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: var(--accent-color2);
   color: #000000;
 }
 .backdrop__button:hover,
@@ -289,7 +289,7 @@ body {
 }
 .form__label {
   display: flex;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 
 .form__set {
@@ -464,7 +464,7 @@ body {
 .work__label {
   text-transform: uppercase;
   text-align: center;
-  color: #ffffff;
+  color: var(--accent-color2);
   position: absolute;
   width: 100%;
   left: 0;
@@ -500,14 +500,6 @@ body {
 }  */
 
 /* Our team */
-.team {
-  background-color: #f5f5f5;
-}
-/* .team {
-  background-color: #f5f5f5;
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
 .team__list {
   display: flex;
   padding-left: 0px;
@@ -736,7 +728,7 @@ a {
 
 .follow__icons:hover,
 .follow__icons:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 
 .follow__icons:hover .follow__icon {
