@@ -25,8 +25,6 @@ body {
 
 /* Top Line*/
 .header {
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   margin-bottom: 0;
   border-bottom: 1px solid #ececec;
 }
@@ -380,9 +378,7 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.features__title,
-.follow__title,
-.subscribe__title {
+.title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -409,9 +405,7 @@ body {
   gap: 30px;
   padding-left: 0px;
 }
-.features__list,
-.team__list,
-.follow__list {
+.list {
   list-style: none;
 }
 .features__box {
@@ -511,9 +505,7 @@ body {
   border-radius: 4px;
   margin-left: 30px;
 }
-.work__heading,
-.team__heading,
-.customers__heading {
+.heading {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
