@@ -14,7 +14,7 @@
   background-repeat: no-repeat;
   background-position: center;
 
-  &__title {
+  .hero__title {
     font-size: 44px;
     text-transform: uppercase;
     letter-spacing: 0.06em;
@@ -23,7 +23,7 @@
     padding-top: 200px;
     padding-bottom: 30px;
   }
-  &__button {
+  .hero__button {
     display: inline-block;
     min-width: 216px;
     color: var(--accent-color2);

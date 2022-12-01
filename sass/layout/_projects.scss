@@ -14,15 +14,13 @@
 .project__set {
   flex-basis: calc((100% - 60px) / 3);
   transition: box-shadow 250ms var(--transition-timing-function);
-}
-
-.project__set {
   &:hover {
     border: 1px solid EEEEEE;
     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 1.6),
       0px 4px 4px 0px rgba(0, 0, 0, 0.6), 0px 1px 1px 0px rgba(0, 0, 0, 1.2);
   }
 }
+
 .project__name {
   font-weight: 700;
   font-size: 18px;
@@ -42,13 +40,6 @@
   display: block;
   width: 100%;
   height: auto;
-}
-.container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .project__content {
